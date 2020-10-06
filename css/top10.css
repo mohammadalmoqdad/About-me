@@ -1,0 +1,48 @@
+body{
+    background-color:rgba(55, 100, 81, 0.548);
+}
+h1{
+font-size: 45px;
+    text-align: center;
+   color: white;
+    padding:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    margin-bottom: 30px;
+
+}
+  
+nav{
+    position: relative;
+    top: 20px;
+    border-radius: 7rem;
+    margin: auto;
+    background-color: rgba(178, 90, 69,2);
+    height: 100px;
+    width: 80%;
+}
+img{
+    background-color: white;
+    
+    width: 750px;
+    height: 450px;
+    /* border: solid 4px  #B25A45 ; */
+    border-radius: 7rem;
+    padding: 39px;
+}
+li{
+   
+}
+.imgoreint1{
+
+margin-top: 23px;
+margin-bottom: 23px;
+margin-left: 17.5%;
+}
+.imgoreint2{
+    float: right;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    margin-right: 9.5%;
+    }
