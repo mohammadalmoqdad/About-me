@@ -25,21 +25,30 @@ nav{
 img{
     background-color: white;
     
-    width: 750px;
-    height: 450px;
+    width: 450px;
+    height: 350px;
     /* border: solid 4px  #B25A45 ; */
-    border-radius: 7rem;
-    padding: 39px;
+    border-radius: 5rem;
+    padding: 10px;
+    /* margin: 5px; */
+    /* float: left; */
 }
-li{
-   
+ul li{
+   display: inline-block;
+   /* margin-top: 100px; */
+   margin: 5px;
+   /* text-align: center; */
 }
-.imgoreint1{
+ul{
+    text-align: center;
+}
+/* .imgoreint1 {
 
 margin-top: 23px;
 margin-bottom: 23px;
-margin-left: 17.5%;
-}
+margin-left: 22%;
+
+} */
 .imgoreint2{
     float: right;
     margin-top: 23px;
