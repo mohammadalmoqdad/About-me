@@ -2,7 +2,7 @@
 var count = 0;
 var userName = prompt("Enter Your name plz");
 alert("lets dicover somethig about me " + userName + "!");
-
+function question1() {
 var dogsAns = prompt("Do you think I love dogs? answer with y/n").toLowerCase();
 if (dogsAns == 'y' || dogsAns == 'yes') {
 
@@ -15,7 +15,9 @@ else if (dogsAns == 'no' || dogsAns == 'n') {
 else {
     alert("just enter y/n only!");
 }
-
+}
+question1();
+function question2 (){
 var scooolAns = prompt("have ever I been suspendeded at school ?\n answer with y/n ").toLowerCase();
 if (scooolAns == 'y' || scooolAns == 'yes') {
     alert("Your answer is incorrect");
@@ -27,6 +29,7 @@ else if (scooolAns == 'no' || scooolAns == 'n') {
 }
 else {
     alert("just enter y/n please!")
+}
 }
 
 
@@ -62,7 +65,7 @@ else {
 
 var musicAns = prompt("Do I love music?  \n answer with y/n").toLowerCase();
 if (musicAns == 'y' || musicAns == 'yes') {
-    alert("Your answer is incorrect");
+  alert("Your answer is incorrect");
 
 }
 else if (musicAns == 'no' || musicAns == 'n') {
